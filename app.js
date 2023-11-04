@@ -4,14 +4,15 @@ const ia = require("firebase/app");
 const Auth = require("firebase/auth");
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCSQJe1_VnTHItbrtKzG1ro0o4yC9xmOW4",
-    authDomain: "authenticaton-5bad4.firebaseapp.com",
-    projectId: "authenticaton-5bad4",
-    storageBucket: "authenticaton-5bad4.appspot.com",
-    messagingSenderId: "742327578217",
-    appId: "1:742327578217:web:e2975eadc8009a8b87fcf8",
-    measurementId: "G-WE310E3SPB"
-  };
+  apiKey: "AIzaSyC7mybMry1LzLSlpsmXMlN_9LbcPogoW2g",
+  authDomain: "inverseprivate-304e0.firebaseapp.com",
+  projectId: "inverseprivate-304e0",
+  storageBucket: "inverseprivate-304e0.appspot.com",
+  messagingSenderId: "246587992179",
+  appId: "1:246587992179:web:aa224363a30a5e532ca206",
+  measurementId: "G-VWNPDLNQJ0"
+};
+
 
 const app = express();
 const app2 = ia.initializeApp(firebaseConfig);
